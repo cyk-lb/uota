@@ -1,3 +1,4 @@
 print("Hello from started edge software: starting endless loop.")
-while True:
-    pass
+text = ""
+while text != "exit":
+    text = input("Enter 'exit' to quit.")
